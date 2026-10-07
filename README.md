@@ -78,11 +78,10 @@ AI-assisted part creation can extract information from datasheets and reuse exis
 
 ### Native macOS Workflow
 
-Hyphantria is built specifically for macOS rather than being a cross-platform application adapted to run on it.
+Hyphantria is built specifically for macOS. Rather than maintaining a cross-platform abstraction layer, the project takes advantage of the native Mac environment and Apple frameworks where they provide a better experience.
 
-That allows the application to make use of native macOS concepts such as automatic document saving and version history, while taking advantage of Apple's graphics and hardware-acceleration technologies.
-
-The objective is not merely to make CAD run on a Mac. It is to rethink how PCB CAD can work when it is designed specifically for the Mac.
+The intention is to create a PCB design tool that feels like a Mac application. 
+Hyphantria makes use of native macOS concepts such as automatic document saving and version history, while taking advantage of Apple's graphics and hardware-acceleration technologies.
 
 ## AI-Assisted by Design
 
@@ -108,13 +107,6 @@ It is:
 
 **"Let AI do the tedious work so I can design my PCB."**
 
-## Native to macOS
-
-Hyphantria is built specifically for macOS.
-
-Rather than maintaining a cross-platform abstraction layer, the project takes advantage of the native Mac environment and Apple frameworks where they provide a better experience.
-
-The intention is to create a PCB design tool that feels like a Mac application. Hyphantria uses many macOS-specific features, including automatic saving, document version history and comparison, and hardware-accelerated graphics.
 
 ## Work in Progress
 
