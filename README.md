@@ -10,25 +10,35 @@ Hyphantria is **not YAC — Yet Another CAD**. It is not intended to reproduce t
 
 You remain the engineer. Hyphantria takes care of the boring parts.
 
-## A Different Workflow
+## A Different design Workflow
 
-Traditional PCB design often involves a surprising amount of work that has little to do with the actual engineering problem:
+Traditional PCB design often involves a surprising amount of work that has little to do with the actual engineering problem, such as searching for datasheets, creating or checking footprints, translating reference circuits into editable schematics, adjusting components for required operating modes etc.
 
-- searching for datasheets
-- extracting component parameters
-- creating schematic symbols
-- creating and checking footprints, or matching packages and manufacturer naming conventions
-- finding reference designs
-- translating reference circuits into schematics
-- adjusting components for required operating modes
-- maintaining component libraries
-- repeatedly entering information that already exists elsewhere
 
 Hyphantria is designed to automate as much of this work as practical.
 
 Instead of treating AI as an optional assistant bolted onto a conventional CAD package, **AI is part of the workflow itself**.
 
 The goal is simple: spend less time operating CAD software and more time designing electronics.
+
+Hyphantria uses an **IC-centred design workflow**. The engineer first selects an IC suitable for the required function; Hyphantria then helps build the surrounding circuit.
+
+1. **Select the IC** — the engineer chooses an IC for the required function and operating conditions.
+2. **Find and adopt a reference design** — starting from the selected IC, Hyphantria searches datasheets, development/evaluation boards, application notes and other manufacturer resources for suitable reference design(s). AI extracts the relevant circuitry and converts it into an editable schematic.
+3. **Create the part automatically** — Hyphantria extracts the IC operational data, creates the required symbols and footprints or reuses existing packages where possible.
+4. **Tune the circuit** — Hyphantria builds **Tuners** from equations, design procedures and constraints extracted from the IC datasheet. The engineer specifies the required operating conditions and the Tuner adjusts the surrounding component values. 
+5. **Assign real components** — resistors and capacitors can be austomatically matched to suitable orderable from DigiKey parts based on value, tolerance, rating, package and other requirements.
+6. **Review and design** — the engineer verifies the resulting circuit and continues with the schematic and PCB.
+
+**Select IC → find reference designs → adopt circuit → extract parts → build & use Tuners → assign real components → PCB.**
+
+The engineer chooses the architecture and defines what the circuit should do. Hyphantria handles much of the repetitive work required to turn that decision into a buildable design.
+
+
+## Automated placement and routing
+
+Work in progress. A full-featured manual routing is supported including multilayer design, polygons, impedance-controlled lines, gate swap, package selection etc.
+
 
 ## Unique Features
 
