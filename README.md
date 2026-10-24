@@ -9,8 +9,8 @@ Hyphantria is a macOS-native PCB design application that helps you focus on the 
 - **AI-assisted component creation** — generate schematic symbols and PCB footprints from part documentation.
 - **Reference design adoption** — bring proven circuits from reference designs into your projects.
 - **Practical part selection** — turn generic components into purchasable parts.
-- **Joint placement and routing optimisation** — optimise component placement and PCB routing together.
-- **Built for Mac** — a streamlined, native workflow with design history and visual comparison of revisions.
+- **Joint placement and routing optimisation** — optimise component placement and PCB routing together to acheive professional quality
+- **Built from scratch for Mac** — a streamlined, native workflow with design history and visual comparison of revisions.
 
 ## Download
 
