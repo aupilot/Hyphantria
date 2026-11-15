@@ -24,4 +24,6 @@ Get the latest macOS release from the **[Releases](../../releases/latest)** page
 
 Visit **[hyphantria.com](https://hyphantria.com)** for more information.
 
+## CLIProxyAPI
+
 To keep your AI provider's bills under control we recommend considering [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), which is natively supported by Hyphantria.
