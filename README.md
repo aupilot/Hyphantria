@@ -18,7 +18,7 @@ Get the latest macOS release from the **[Releases](../../releases/latest)** page
 
 > **Requirements:** macOS and an AI provider account or API access. AI usage may incur separate provider charges.
 >
-> **Early release:** Features and workflows may evolve as the app develops.
+> **Early release:** Hyphantria is under active developmnt. Features and workflows may evolve as the app develops.
 
 ## Learn more
 
@@ -27,3 +27,4 @@ Visit **[hyphantria.com](https://hyphantria.com)** for more information.
 ## CLIProxyAPI
 
 To keep your AI provider's bills under control we recommend considering [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), which is natively supported by Hyphantria.
+
